@@ -5,3 +5,10 @@ def cigar_party(cigars, is_weekend):
     else:
         
         return 40 <= cigars <= 60
+
+def sorta_sum(a,b):
+    osszeadas=a+b
+    if 10<= osszeadas <=19:
+        return 20
+    else:
+        return osszeadas
